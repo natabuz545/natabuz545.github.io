@@ -15,7 +15,9 @@
 
 }
 
-
+.itemheader:hover{
+    color:#0FB5E9;
+}
 @media screen and (max-width: 1087px){
 
     .itemheader {
