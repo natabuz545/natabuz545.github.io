@@ -15,9 +15,7 @@
 
 }
 
-.itemheader:hover{
-    color:#0FB5E9;
-}
+
 @media screen and (max-width: 1087px){
 
     .itemheader {
@@ -277,7 +275,12 @@
 }
 
 
-
+.itemheader:hover{
+    color:#0FB5E9;
+}
+.cll2{
+color: #54585A;
+}
 
 @media screen and (max-width: 581px){
 
