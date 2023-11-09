@@ -841,7 +841,13 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
 
 
 @media screen and (max-width: 380px){
+    .get_call {
+        margin-right: 0px;
+        font-size: 10px;
+    }
 
+    .basket .order_price-complect {font-size: 12px;}
+    .basket .order_count-complect {font-size: 12px;}
 
     .main_info p {
         color: #ffffff;
@@ -902,4 +908,25 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
     z-index: 100000000;
     padding: 10px;
 }
+
+.basket .newspage1{
+    background-color: #F2F2F2;
+    margin-bottom: 40px;
 }
+
+.basket .directors_block .container_section {
+    padding: 9px;
+    padding-top: 62px;
+}
+.basket .order_name-complect {
+    font-size: 10px;
+    max-width: 206px;
+}
+.basket  .order_item-delete svg{width: 15px;}
+}
+.order_item-delete{}
+
+
+.basket_apply1 {margin-top: 20px; margin-bottom: 21px;}
+.basket_btn-apply{margin-top: 8px;}
+.breadcrumbs  .header_bottom {border: unset;}
