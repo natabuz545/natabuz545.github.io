@@ -766,6 +766,33 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
 
 @media screen and (max-width: 480px){
 
+    .article_descr, .article_header{font-size: 9px;}
+    .article_btn-a {font-size: 10px;}
+    .article-item > img {width: 34%}
+    .article_info {
+        color: #ffffff;
+        padding-left: 15px;
+        background: rgba(15, 233, 233, 0.35);
+        padding-top: 24px;
+        padding-right: 31px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+    }
+    .header_bottom-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobilebtnPb .btn_social{ align-items: center; align-self: center;}
+
+    .feedback_blur {
+        width: 80%;
+        top: 50%;
+    }
+    .serv {
+        width: 100%;
+    }
+
     .feedback_header{font-size:38px;}
 
     .serv-cart .header_sec {
@@ -796,4 +823,60 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
 @media screen and (max-width:370px){
 
     .services_item {width: 100%;}
+}
+
+
+@media screen and (max-width: 449px){
+
+    .article-item > img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+
+
+    .main_info p {
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .header_he1 {font-size: 29px;}
+
+    .compimg, .bookimg{display: none;}
+
+    .review-client_text {
+        font-size: 9px;
+    }
+    .names_clients h3 {
+        font-size: 12px;
+    }
+    .ava_block img{width: 33px;}
+    .ourproject_list{padding: 20px;}
+    .project-item{height: 285px;}
+    .project-item:nth-child(2) {display: none;}
+    .pro12 p{font-size: 12px;}
+    .border{padding: 8px;}
+    
+    .pr_block-item p{font-size: 10px;}
+    .pr_block-item svg{width: 24px;}
+
+    .prich_bottom-btns a{max-width: 200px;text-align: center;}
+
+    .prich_bottom-btns{flex-direction: column;}
+
+    .dir_btns {flex-direction: column; margin-top: 13px;
+    display: flex;
+    margin-left: -145px;}
+    .dir_btns .prich_det{margin-bottom: 10px; } .dir_btns .ju7{margin-left: 0px;}
+
+
+    .header_sec{font-size: 32px;}
+
+    .feedback_header {
+        font-size: 32px;
+    }
+    .dir_phoe{font-size: 10px;}
+    .feedback_block{padding: 15px;}
 }
