@@ -975,3 +975,30 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
         z-index: 11111;
     }
 }
+
+
+@media (max-width: 540px){
+
+    .order_info-right img {
+        border-radius: 14px;
+        height: auto;
+    }
+
+}
+.orderheadermob {display: none;}
+
+@media (max-width: 440px){
+    .orderheadermob {display: block;}
+    .order_info-left{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    }
+
+    .order_info-left .order-header {display: none;}
+
+.orderheadermob{font-size: 16px;}
+}
