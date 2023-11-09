@@ -400,9 +400,9 @@ position: absolute;}}
 
 .shedule_dots.sh1{left: 33%;}.shedule::before{height: 14px;}
 
-.header_top-right{display: none;}
-} 
 
+} 
+@media screen and (max-width: 451px){.header_top-right{display: none;}}
 
 @media screen and (max-width: 401px) {
     .dir_btns {
