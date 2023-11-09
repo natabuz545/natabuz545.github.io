@@ -1002,3 +1002,20 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
 
 .orderheadermob{font-size: 16px;}
 }
+
+@media (max-width: 540px){
+    #openModal .feedback_right-info {padding-top: 0px;}
+    #openModal .feedback_header {
+        font-size: 26px;
+    }
+    #openModal .feedback_block {padding: 22px;}
+    #openModal .custom-checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+        padding-left: 23px;
+        font-size: 10px;
+        position: relative;
+    }
+    #openModal .feedback_block{margin-top: 0px;}
+}
