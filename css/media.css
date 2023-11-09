@@ -930,3 +930,48 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
 .basket_apply1 {margin-top: 20px; margin-bottom: 21px;}
 .basket_btn-apply{margin-top: 8px;}
 .breadcrumbs  .header_bottom {border: unset;}
+
+.basket .header_top{ border: unset}
+
+.lop32 {display: none;}
+
+@media (max-width: 576px){
+
+
+    .dir_info {
+        margin-left: 101px;
+    }
+
+    .dir_btns{margin-left: 0px;}
+
+}
+
+
+@media (max-width: 660px){
+    .lop324{display: none;}
+    .lop32 {display: flex; justify-content: center; position: unset;}
+    .dir_btns .prich_det, .dir_btns .ju7 {width: 50%;}
+}
+
+@media (max-width: 400px){.dir_info {
+    margin-left: 137px;
+}}
+
+@media (max-width: 350px){
+    .dir_btns .prich_det, .dir_btns .ju7 {
+        width: 80%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 840px){
+
+    .bookdir_pn {
+        position: absolute;
+        right: 3px;
+        bottom: -30px;
+        width: 13%;
+        z-index: 11111;
+    }
+}
