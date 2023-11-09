@@ -37,7 +37,7 @@ $(document).ready(function(){
     
     console.log(2134);
   
-    $(".btn_call").click(function(){
+    $(".get_call").click(function(){
 
     $("#openModal").toggleClass("activeModalka");
 
