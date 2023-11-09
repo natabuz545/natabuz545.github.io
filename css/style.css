@@ -1377,3 +1377,40 @@ body .uniq1ph{font-size: 18px; font-weight: 700; margin-top: 15px; display: bloc
 
 .com9{position: absolute; right: 0; top: 90%; transform: translate(10px, -67%);}
 .com6{position: absolute; left:0; top: 0}
+
+
+#openModal .feedback_blur {
+    width: 100%;
+    top: 0;
+    height: 100%;
+}
+
+#openModal .modal-content {border: none;
+
+    background-color: transparent;
+
+    border-radius: 8px;
+    outline: 0;
+
+}
+.modal-header {border-bottom: unset;}
+.close{text-shadow: unset;}
+
+
+.modal_bl1 .feedback_block {
+    background: #146FC6;
+}
+
+.custom-checkbox:checked+label::before {
+    background-image: url(../img/checked1.svg);
+}
+
+.activeModalka{
+    opacity: 1;
+    z-index: 100000000;
+}
+#openModal .custom-checkbox:checked+label::before {
+    background-image: url(../img/checked1.svg);
+}
+.btns_socandcall {z-index: 1;}
+.line1{z-index: -1;}.line2{z-index: -1;}
