@@ -880,3 +880,20 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
     .dir_phoe{font-size: 10px;}
     .feedback_block{padding: 15px;}
 }
+
+
+@media (max-width: 576px){
+.modal-dialog {
+    max-width: 560px;
+    margin: 30px auto;
+}
+.feedback_right-info {
+    width: 100%;
+}
+
+.activeModalka {
+    opacity: 1;
+    z-index: 100000000;
+    padding: 10px;
+}
+}
