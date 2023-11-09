@@ -1,4 +1,5 @@
 @media screen and (max-width: 960px){
+    .index .header_bottom{border-bottom: unset;}
     .client-block {
         max-width: 429px;
         margin: 0 auto;
@@ -766,6 +767,10 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
 
 @media screen and (max-width: 480px){
 
+
+    .footer_icons svg{width: 32px;}
+    .footer_item-header{font-size: 10px;}
+
     .article_descr, .article_header{font-size: 9px;}
     .article_btn-a {font-size: 10px;}
     .article-item > img {width: 34%}
@@ -821,7 +826,8 @@ body .header_bottom.getline1{    border-bottom: 1px solid #D6D6D6;}
 
 
 @media screen and (max-width:370px){
-
+    .bottom_hrefs a{font-size: 8px;}
+    .footer_items {flex-direction: column;}
     .services_item {width: 100%;}
 }
 
