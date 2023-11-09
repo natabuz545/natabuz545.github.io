@@ -1,4 +1,14 @@
 $(document).ready(function(){
+
+
+
+
+
+
+
+
+
+
     $('.clients_talk-slider').slick({
         slidesToShow: 2,
         prevArrow:"<img class='slider_left' src='./img/slider_left.png'>",
@@ -27,6 +37,17 @@ $(document).ready(function(){
     
     console.log(2134);
   
+    $(".btn_call").click(function(){
+
+    $("#openModal").toggleClass("activeModalka");
+
+  });
+
+  $(".close").click(function(){
+
+    $("#openModal").toggleClass("activeModalka");
+
+  });
 
 
     $(".menbtn .downitem").click(function(){
