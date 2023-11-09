@@ -460,7 +460,7 @@ margin-bottom: 16px;
     }
     .dir_phoe{font-size: 12px;}
     .dir_btns{ margin-top: 18px;}
-.dir_btns .prich_det, .dir_btns .ju7{font-size: 12px;     padding: 10px 20px;}
+.dir_btns .prich_det, .dir_btns .ju7{font-size: 12px;     padding: 10px 20px; text-align: center;}
 
 .dir_btns .ju7{margin-left:8px;}
 .bookdir_pn{position: absolute; right: 26px; bottom: -30px; width: 130px;z-index: 11111;}
