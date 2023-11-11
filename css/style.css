@@ -17,9 +17,14 @@ a, a:link, a:visited  {
     text-decoration: none;
 }
 
+
+
 a:hover  {
     text-decoration: none;
 }
+
+header a:hover{opacity: 0.6;}
+
 
 /* Common */
 
