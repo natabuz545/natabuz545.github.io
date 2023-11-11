@@ -1238,6 +1238,8 @@ ul.numericlist li{list-style: decimal; }
 .share_btns {margin-top: 40px;}
 
 
+.all_space-container .header_top , .all_space-container .header_bottom{border: none} {border: none}
+.all_space-container {    border-bottom: 1px solid #D6D6D6;}
 .contains_info{background-color: #0FB5E9; padding: 32px; border-radius: 8px; color: #ffffff; margin-top: 40px;}
 .contains_info span{margin-bottom: 8px; display: block; font-weight: 600;}
 
@@ -1263,6 +1265,7 @@ ul.numericlist li{list-style: decimal; }
     }
     .shop .oldPrice{
         font-size: 14px;
+        text-decoration: line-through;
         color: #B1B1B1;margin-right: 4px;
     }
 .shop .serv_info h3{
@@ -1424,3 +1427,6 @@ body .uniq1ph{font-size: 18px; font-weight: 700; margin-top: 15px; display: bloc
 }
 
 .menbtn .search svg{width:20px}
+.bottom_hrefs a:hover{opacity: .6;}
+.footer-item.footer-itemfirst a:hover{opacity: .6;}
+.items_footer-ssylk a:hover{opacity: .6;}

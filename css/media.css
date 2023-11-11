@@ -25,6 +25,18 @@
 
 .mobilebtnPb {justify-content: center;}
 
+@media screen and (min-width: 1367px){
+
+    .footer-img-relatvie {
+        position: absolute;
+        opacity: 0.3;
+        width: 58%;
+        bottom: -62%;
+        right: -15%;
+    }
+    
+}
+
 @media screen and (max-width: 1087px){
 
     .itemheader {
